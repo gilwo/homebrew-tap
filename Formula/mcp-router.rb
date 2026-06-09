@@ -1,26 +1,26 @@
 class McpRouter < Formula
   desc "MCP gateway that aggregates multiple MCP servers behind a single endpoint"
   homepage "https://github.com/gilwo/mcp-router-release"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gilwo/mcp-router-release/releases/download/v0.4.0/mcp-router_0.4.0_darwin_arm64"
-      sha256 "09da26557b0441049107bf2a948c5dab7ffedf2d754c1bdeba5c4bf0afe2ed42"
+      url "https://github.com/gilwo/mcp-router-release/releases/download/v0.4.1/mcp-router_0.4.1_darwin_arm64"
+      sha256 "359e16e809dfd3d87d3b34ce35919b0cf8d8396aef51250219a11eaffa650b80"
     else
-      url "https://github.com/gilwo/mcp-router-release/releases/download/v0.4.0/mcp-router_0.4.0_darwin_amd64"
-      sha256 "8b091c32329888ab2d3185b52925b382659ecb337974bae5c43c8a4842ac5b2f"
+      url "https://github.com/gilwo/mcp-router-release/releases/download/v0.4.1/mcp-router_0.4.1_darwin_amd64"
+      sha256 "c496b6eecbe3261c14bc2758d7fc82d0b041458fada683eea17c1086b80d53db"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/gilwo/mcp-router-release/releases/download/v0.4.0/mcp-router_0.4.0_linux_arm64"
-      sha256 "5966ed91c48f578d51be907cb5df73c593908da77bdd986c6c76e463b61326d6"
+      url "https://github.com/gilwo/mcp-router-release/releases/download/v0.4.1/mcp-router_0.4.1_linux_arm64"
+      sha256 "9c0da7c5c5b87294adefec43e32db38584f4eb7f915026840048815a39b52b6a"
     else
-      url "https://github.com/gilwo/mcp-router-release/releases/download/v0.4.0/mcp-router_0.4.0_linux_amd64"
-      sha256 "76fb4cc7db0387653a64d7f43e09eef02783ca2c0ce256b6e9d0a2c46730031a"
+      url "https://github.com/gilwo/mcp-router-release/releases/download/v0.4.1/mcp-router_0.4.1_linux_amd64"
+      sha256 "a6da5c71074ebc69feb8ee5904293dcea0d48eeae19b82ee0015952cc5200044"
     end
   end
 
